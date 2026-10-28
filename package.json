@@ -1,0 +1,17 @@
+{
+  "name": "voidside-api",
+  "version": "1.0.0",
+  "description": "Voidside serverside API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
